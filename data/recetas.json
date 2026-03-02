@@ -1,0 +1,339 @@
+[
+  {
+    "id": 1,
+    "nombre": "Arroz con Pollo",
+    "slug": "arroz-con-pollo",
+    "imagen": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+    "tiempo": 35,
+    "dificultad": "fácil",
+    "porciones": 4,
+    "categoria": "almuerzo",
+    "tags_dieta": ["normal", "sin-gluten"],
+    "ingredientes": [
+      { "nombre": "pollo", "cantidad": "500 g", "afiliado": null },
+      { "nombre": "arroz", "cantidad": "2 tazas", "afiliado": null },
+      { "nombre": "tomate", "cantidad": "2 unidades", "afiliado": null },
+      { "nombre": "pimiento rojo", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "cebolla", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "3 dientes", "afiliado": null },
+      { "nombre": "caldo de pollo", "cantidad": "4 tazas", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "3 cucharadas", "afiliado": null },
+      { "nombre": "sal y pimienta", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Corta el pollo en trozos medianos y sazónalo con sal y pimienta.",
+      "Calienta el aceite en una cazuela grande a fuego medio-alto. Dora el pollo por todos lados durante 5 minutos y retira.",
+      "En la misma cazuela, sofríe la cebolla, el ajo y el pimiento picados durante 4 minutos hasta que estén blandos.",
+      "Agrega el tomate pelado y picado. Cocina 5 minutos más hasta que se integre.",
+      "Incorpora el arroz y remueve 1 minuto para que se impregne del sofrito.",
+      "Vuelve a poner el pollo, añade el caldo caliente y lleva a ebullición.",
+      "Reduce el fuego, tapa y cocina 18 minutos hasta que el arroz esté hecho y el caldo absorbido.",
+      "Deja reposar 3 minutos destapado antes de servir."
+    ],
+    "sustituciones": [
+      { "original": "pollo", "alternativa": "muslos de pavo o garbanzos cocidos (versión vegana)" },
+      { "original": "caldo de pollo", "alternativa": "caldo de verduras" },
+      { "original": "arroz", "alternativa": "arroz integral (añade 10 min de cocción)" }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Tortilla Española",
+    "slug": "tortilla-espanola",
+    "imagen": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "tiempo": 25,
+    "dificultad": "fácil",
+    "porciones": 4,
+    "categoria": "cena",
+    "tags_dieta": ["sin-gluten", "economico", "rapido"],
+    "ingredientes": [
+      { "nombre": "huevos", "cantidad": "6 unidades", "afiliado": null },
+      { "nombre": "patata", "cantidad": "3 medianas", "afiliado": null },
+      { "nombre": "cebolla", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "150 ml", "afiliado": null },
+      { "nombre": "sal", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Pela y corta las patatas en láminas finas. Corta la cebolla en juliana.",
+      "Calienta el aceite en una sartén antiadherente a fuego medio. Fríe las patatas y la cebolla durante 15 minutos hasta que estén tiernas pero no doradas.",
+      "Escurre bien el aceite de las patatas. Reserva 2 cucharadas del aceite.",
+      "Bate los huevos con sal en un bol grande. Incorpora las patatas y la cebolla y mezcla bien.",
+      "Calienta las 2 cucharadas de aceite reservadas en la sartén a fuego medio-alto. Vierte la mezcla y cocina 3-4 minutos.",
+      "Con un plato más grande que la sartén, voltea la tortilla y deslízala de nuevo al fuego.",
+      "Cocina 2-3 minutos más hasta que esté cuajada por dentro pero jugosa. Sirve caliente o a temperatura ambiente."
+    ],
+    "sustituciones": [
+      { "original": "patata", "alternativa": "boniato o calabacín para una versión más ligera" },
+      { "original": "cebolla", "alternativa": "cebolleta o puerro" }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Sopa de Lentejas",
+    "slug": "sopa-de-lentejas",
+    "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "tiempo": 40,
+    "dificultad": "fácil",
+    "porciones": 6,
+    "categoria": "almuerzo",
+    "tags_dieta": ["saludable", "vegano", "economico", "sin-gluten"],
+    "ingredientes": [
+      { "nombre": "lentejas", "cantidad": "300 g", "afiliado": null },
+      { "nombre": "zanahoria", "cantidad": "2 unidades", "afiliado": null },
+      { "nombre": "cebolla", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "tomate", "cantidad": "2 unidades", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "3 dientes", "afiliado": null },
+      { "nombre": "comino", "cantidad": "1 cucharadita", "afiliado": null },
+      { "nombre": "pimentón", "cantidad": "1 cucharadita", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "2 cucharadas", "afiliado": null },
+      { "nombre": "sal", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Enjuaga las lentejas y ponlas en remojo 30 minutos si son pardinas (las rojas no necesitan remojo).",
+      "Sofríe en una olla grande con aceite: cebolla y ajo picados, 5 minutos a fuego medio.",
+      "Añade la zanahoria en rodajas y el tomate picado. Cocina 3 minutos más.",
+      "Incorpora el comino y el pimentón, remueve 1 minuto para tostar las especias.",
+      "Agrega las lentejas escurridas y cubre con 1,5 litros de agua o caldo de verduras.",
+      "Lleva a ebullición, reduce el fuego y cocina tapado durante 25-30 minutos.",
+      "Rectifica de sal y sirve. Puedes triturar una parte para darle más cremosidad."
+    ],
+    "sustituciones": [
+      { "original": "lentejas", "alternativa": "garbanzos o judías blancas" },
+      { "original": "comino", "alternativa": "curry en polvo para un sabor diferente" },
+      { "original": "tomate", "alternativa": "1 cucharada de tomate concentrado" }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Pasta al Pesto con Tomates Cherry",
+    "slug": "pasta-al-pesto",
+    "imagen": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "tiempo": 20,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "cena",
+    "tags_dieta": ["vegano", "economico", "rapido"],
+    "ingredientes": [
+      { "nombre": "pasta", "cantidad": "200 g", "afiliado": null },
+      { "nombre": "tomate cherry", "cantidad": "200 g", "afiliado": null },
+      { "nombre": "albahaca fresca", "cantidad": "1 manojo", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "2 dientes", "afiliado": null },
+      { "nombre": "piñones", "cantidad": "30 g", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "6 cucharadas", "afiliado": null },
+      { "nombre": "sal y pimienta", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Cuece la pasta en agua con sal según las instrucciones del paquete. Reserva medio vaso del agua de cocción.",
+      "Mientras cuece la pasta, prepara el pesto: tritura en un procesador la albahaca, el ajo, los piñones y el aceite hasta obtener una salsa.",
+      "Sazona el pesto con sal y pimienta al gusto.",
+      "Corta los tomates cherry por la mitad.",
+      "Escurre la pasta y mézclala con el pesto. Si queda muy espeso, añade un poco del agua de cocción.",
+      "Incorpora los tomates cherry y sirve inmediatamente."
+    ],
+    "sustituciones": [
+      { "original": "piñones", "alternativa": "nueces, anacardos o semillas de girasol (más económico)" },
+      { "original": "albahaca fresca", "alternativa": "rúcula o espinacas para un pesto diferente" },
+      { "original": "pasta", "alternativa": "pasta de arroz o de lentejas para versión sin gluten" }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Salmón al Horno con Verduras",
+    "slug": "salmon-al-horno",
+    "imagen": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    "tiempo": 30,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "cena",
+    "tags_dieta": ["saludable", "sin-gluten", "rapido"],
+    "ingredientes": [
+      { "nombre": "salmón", "cantidad": "2 filetes (300 g)", "afiliado": null },
+      { "nombre": "brócoli", "cantidad": "200 g", "afiliado": null },
+      { "nombre": "zanahoria", "cantidad": "2 unidades", "afiliado": null },
+      { "nombre": "limón", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "2 dientes", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "3 cucharadas", "afiliado": null },
+      { "nombre": "sal, pimienta y orégano", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Precalienta el horno a 200 °C.",
+      "Corta el brócoli en ramitos y la zanahoria en bastones. Colócalos en una bandeja con 2 cucharadas de aceite, sal y pimienta. Hornea 10 minutos.",
+      "Coloca los filetes de salmón sobre las verduras. Exprime el limón por encima, añade el ajo laminado, el orégano y la cucharada de aceite restante.",
+      "Hornea 15-18 minutos hasta que el salmón esté opaco y se desmigue fácilmente.",
+      "Sirve inmediatamente con las verduras asadas."
+    ],
+    "sustituciones": [
+      { "original": "salmón", "alternativa": "merluza, dorada o pechuga de pollo" },
+      { "original": "brócoli", "alternativa": "coliflor, judías verdes o espárragos" },
+      { "original": "limón", "alternativa": "naranja para un sabor más dulce" }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Ensalada de Garbanzos y Aguacate",
+    "slug": "ensalada-garbanzos-aguacate",
+    "imagen": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    "tiempo": 10,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "almuerzo",
+    "tags_dieta": ["vegano", "saludable", "sin-gluten", "rapido"],
+    "ingredientes": [
+      { "nombre": "garbanzos cocidos", "cantidad": "400 g (1 lata)", "afiliado": null },
+      { "nombre": "aguacate", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "tomate cherry", "cantidad": "150 g", "afiliado": null },
+      { "nombre": "pepino", "cantidad": "½ unidad", "afiliado": null },
+      { "nombre": "cebolla roja", "cantidad": "¼ unidad", "afiliado": null },
+      { "nombre": "limón", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "2 cucharadas", "afiliado": null },
+      { "nombre": "sal, pimienta y comino", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Escurre y enjuaga los garbanzos con agua fría.",
+      "Corta el aguacate en cubos, los tomates por la mitad, el pepino en medias lunas y la cebolla en juliana fina.",
+      "Mezcla todos los ingredientes en un bol grande.",
+      "Aliña con el zumo de limón, el aceite de oliva, sal, pimienta y comino.",
+      "Remueve con cuidado para no deshacer el aguacate y sirve inmediatamente."
+    ],
+    "sustituciones": [
+      { "original": "aguacate", "alternativa": "mango o melocotón para un toque dulce" },
+      { "original": "garbanzos", "alternativa": "judías blancas o lentejas cocidas" },
+      { "original": "cebolla roja", "alternativa": "cebolleta o cebollino" }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Pollo a la Plancha con Brócoli",
+    "slug": "pollo-plancha-brocoli",
+    "imagen": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
+    "tiempo": 20,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "cena",
+    "tags_dieta": ["saludable", "sin-gluten", "rapido"],
+    "ingredientes": [
+      { "nombre": "pechuga de pollo", "cantidad": "2 unidades (400 g)", "afiliado": null },
+      { "nombre": "brócoli", "cantidad": "300 g", "afiliado": null },
+      { "nombre": "ajo en polvo", "cantidad": "1 cucharadita", "afiliado": null },
+      { "nombre": "pimentón dulce", "cantidad": "1 cucharadita", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "2 cucharadas", "afiliado": null },
+      { "nombre": "limón", "cantidad": "½ unidad", "afiliado": null },
+      { "nombre": "sal y pimienta", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Aplana las pechugas con un mazo de cocina para que tengan grosor uniforme. Sazónalas con ajo en polvo, pimentón, sal y pimienta.",
+      "Cuece el brócoli al vapor o en agua hirviendo 5 minutos. Debe quedar al dente.",
+      "Calienta una plancha o sartén con el aceite a fuego alto.",
+      "Cocina el pollo 4-5 minutos por cada lado hasta que esté dorado y cocido por dentro.",
+      "Sirve el pollo junto al brócoli. Exprime el limón por encima antes de servir."
+    ],
+    "sustituciones": [
+      { "original": "pechuga de pollo", "alternativa": "filetes de pavo o tofu firme marinado" },
+      { "original": "brócoli", "alternativa": "coliflor, judías verdes o espinacas salteadas" },
+      { "original": "pimentón dulce", "alternativa": "curry o hierbas provenzales" }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Revuelto de Espinacas y Huevo",
+    "slug": "revuelto-espinacas-huevo",
+    "imagen": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80",
+    "tiempo": 12,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "cena",
+    "tags_dieta": ["saludable", "sin-gluten", "rapido", "economico"],
+    "ingredientes": [
+      { "nombre": "huevos", "cantidad": "4 unidades", "afiliado": null },
+      { "nombre": "espinacas frescas", "cantidad": "150 g", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "2 dientes", "afiliado": null },
+      { "nombre": "cebolla", "cantidad": "½ unidad", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "1 cucharada", "afiliado": null },
+      { "nombre": "sal y pimienta", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Pica la cebolla y el ajo finamente. Sofríe en una sartén con aceite a fuego medio durante 3 minutos.",
+      "Incorpora las espinacas y cocina hasta que se reduzcan, unos 2 minutos. Sazona con sal.",
+      "Bate los huevos con sal y pimienta en un bol.",
+      "Baja el fuego al mínimo y vierte los huevos sobre las espinacas.",
+      "Remueve suavemente con una espátula, retirando del fuego si es necesario, hasta que los huevos estén cremosos y apenas cuajados.",
+      "Sirve inmediatamente con pan tostado."
+    ],
+    "sustituciones": [
+      { "original": "espinacas", "alternativa": "acelgas, kale o champiñones" },
+      { "original": "huevos", "alternativa": "tofu sedoso desmigado (versión vegana)" }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Crema de Calabaza al Jengibre",
+    "slug": "crema-calabaza-jengibre",
+    "imagen": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
+    "tiempo": 35,
+    "dificultad": "fácil",
+    "porciones": 4,
+    "categoria": "almuerzo",
+    "tags_dieta": ["vegano", "saludable", "sin-gluten", "economico"],
+    "ingredientes": [
+      { "nombre": "calabaza", "cantidad": "800 g", "afiliado": null },
+      { "nombre": "cebolla", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "2 dientes", "afiliado": null },
+      { "nombre": "jengibre fresco", "cantidad": "1 trozo de 2 cm", "afiliado": null },
+      { "nombre": "leche de coco", "cantidad": "200 ml", "afiliado": null },
+      { "nombre": "caldo de verduras", "cantidad": "600 ml", "afiliado": null },
+      { "nombre": "aceite de oliva", "cantidad": "2 cucharadas", "afiliado": null },
+      { "nombre": "sal y pimienta", "cantidad": "al gusto", "afiliado": null }
+    ],
+    "pasos": [
+      "Pela la calabaza y córtala en cubos de 3 cm.",
+      "En una olla, sofríe la cebolla y el ajo picados con aceite durante 5 minutos.",
+      "Agrega el jengibre rallado y cocina 1 minuto más.",
+      "Incorpora la calabaza y el caldo de verduras. Lleva a ebullición.",
+      "Cocina a fuego medio tapado durante 20 minutos hasta que la calabaza esté muy tierna.",
+      "Agrega la leche de coco, tritura con un batidor de mano hasta obtener una crema suave.",
+      "Rectifica de sal y pimienta. Sirve con un hilo de leche de coco y pimienta negra."
+    ],
+    "sustituciones": [
+      { "original": "calabaza", "alternativa": "boniato, zanahoria o butternut squash" },
+      { "original": "leche de coco", "alternativa": "leche de avena o nata de cocinar" },
+      { "original": "jengibre fresco", "alternativa": "½ cucharadita de jengibre en polvo" }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Arroz Frito con Verduras",
+    "slug": "arroz-frito-verduras",
+    "imagen": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80",
+    "tiempo": 20,
+    "dificultad": "fácil",
+    "porciones": 2,
+    "categoria": "cena",
+    "tags_dieta": ["vegano", "economico", "rapido", "sin-gluten"],
+    "ingredientes": [
+      { "nombre": "arroz cocido del día anterior", "cantidad": "2 tazas", "afiliado": null },
+      { "nombre": "zanahoria", "cantidad": "1 unidad", "afiliado": null },
+      { "nombre": "guisantes", "cantidad": "100 g", "afiliado": null },
+      { "nombre": "pimiento rojo", "cantidad": "½ unidad", "afiliado": null },
+      { "nombre": "cebolleta", "cantidad": "2 tallos", "afiliado": null },
+      { "nombre": "ajo", "cantidad": "2 dientes", "afiliado": null },
+      { "nombre": "salsa de soja", "cantidad": "3 cucharadas", "afiliado": null },
+      { "nombre": "aceite de sésamo", "cantidad": "1 cucharada", "afiliado": null },
+      { "nombre": "aceite de girasol", "cantidad": "2 cucharadas", "afiliado": null }
+    ],
+    "pasos": [
+      "Corta en dados pequeños la zanahoria y el pimiento. Pica el ajo y la cebolleta.",
+      "Calienta el aceite de girasol en un wok o sartén grande a fuego muy alto.",
+      "Saltea el ajo y la parte blanca de la cebolleta durante 30 segundos.",
+      "Añade la zanahoria y el pimiento. Saltea 3 minutos removiendo constantemente.",
+      "Incorpora los guisantes y cocina 1 minuto más.",
+      "Agrega el arroz (desmenuzado si está apelmazado) y saltea todo junto 3-4 minutos.",
+      "Vierte la salsa de soja y el aceite de sésamo, remueve bien durante 1 minuto.",
+      "Sirve con la parte verde de la cebolleta por encima."
+    ],
+    "sustituciones": [
+      { "original": "aceite de sésamo", "alternativa": "aceite de oliva + unas gotas de salsa de soja extra" },
+      { "original": "guisantes", "alternativa": "maíz, edamame o judías verdes" },
+      { "original": "salsa de soja", "alternativa": "tamari para versión 100% sin gluten certificado" }
+    ]
+  }
+]
