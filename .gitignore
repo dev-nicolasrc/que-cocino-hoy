@@ -8,3 +8,7 @@ Thumbs.db
 
 # Node (por si acaso en Fase 2)
 node_modules/
+
+# Docs internos / specs
+cocinarahora-spec.md
+cocinarahora-reporte-seo.html
