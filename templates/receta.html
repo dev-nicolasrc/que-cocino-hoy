@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{NOMBRE}} — Receta Fácil | CocinaAhora</title>
+  <meta name="description" content="{{DESCRIPCION}}" />
+  <link rel="canonical" href="https://cocinarahora.com/receta/{{SLUG}}/" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="es-CO" href="https://cocinarahora.com/receta/{{SLUG}}/" />
+  <link rel="alternate" hreflang="x-default" href="https://cocinarahora.com/receta/{{SLUG}}/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{NOMBRE}} | CocinaAhora" />
+  <meta property="og:description" content="{{DESCRIPCION}}" />
+  <meta property="og:image" content="{{IMAGEN}}" />
+  <meta property="og:url" content="https://cocinarahora.com/receta/{{SLUG}}/" />
+  <meta property="og:site_name" content="CocinaAhora" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2594577923637858"
+       crossorigin="anonymous"></script>
+
+  <!-- Preconnect AdSense -->
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin />
+  <link rel="dns-prefetch" href="https://tpc.googlesyndication.com" />
+  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+
+  <!-- Google Fonts — carga no bloqueante -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" /></noscript>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/output.css" />
+
+  <!-- Schema JSON-LD -->
+  {{SCHEMA_JSON_LD}}
+</head>
+
+<body class="bg-fondo font-cuerpo text-gray-800">
+
+  <!-- Safelist Tailwind — clases usadas en HTML generado dinámicamente -->
+  <div class="hidden
+    inline-block bg-crema text-azul text-xs font-semibold px-3 py-1 rounded-full
+    flex justify-between border-b border-gray-100 py-2 text-sm text-gray-700 text-gray-500 font-medium
+    shrink-0 w-8 h-8 bg-naranja text-white rounded-full items-center justify-center font-titulo font-black
+    leading-relaxed pt-1 text-gray-600 gap-4 space-y-2 font-bold"></div>
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <nav class="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
+      <a href="/" class="font-titulo font-black text-naranja text-xl leading-tight shrink-0">
+        🍳 CocinaAhora
+      </a>
+      <span class="text-gray-300 hidden sm:inline">›</span>
+      <span class="text-sm text-gray-500 truncate hidden sm:inline">{{NOMBRE}}</span>
+    </nav>
+  </header>
+
+  <!-- BREADCRUMB VISUAL -->
+  <nav aria-label="breadcrumb" class="max-w-3xl mx-auto px-4 pt-4 pb-1">
+    <ol class="flex gap-2 items-center text-xs text-gray-400">
+      <li><a href="/" class="hover:text-naranja transition-colors">Inicio</a></li>
+      <li>›</li>
+      <li class="text-gray-500 truncate">{{NOMBRE}}</li>
+    </ol>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="max-w-3xl mx-auto px-4 pb-16">
+
+    <h1 class="font-titulo font-black text-3xl sm:text-4xl text-azul mt-3 mb-3 leading-tight">
+      {{NOMBRE}}
+    </h1>
+
+    <p class="text-gray-600 mb-4 leading-relaxed">{{DESCRIPCION}}</p>
+
+    <!-- Badges dieta -->
+    <div class="flex flex-wrap gap-2 mb-5">
+      {{DIET_BADGES}}
+    </div>
+
+    <!-- Info rápida -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+      <div class="bg-white rounded-xl border border-crema p-3 text-center">
+        <p class="text-2xl mb-1">⏱</p>
+        <p class="text-xs text-gray-400 uppercase tracking-wide">Tiempo</p>
+        <p class="font-semibold text-sm">{{TIEMPO}} min</p>
+      </div>
+      <div class="bg-white rounded-xl border border-crema p-3 text-center">
+        <p class="text-2xl mb-1">📊</p>
+        <p class="text-xs text-gray-400 uppercase tracking-wide">Dificultad</p>
+        <p class="font-semibold text-sm capitalize">{{DIFICULTAD}}</p>
+      </div>
+      <div class="bg-white rounded-xl border border-crema p-3 text-center">
+        <p class="text-2xl mb-1">👥</p>
+        <p class="text-xs text-gray-400 uppercase tracking-wide">Porciones</p>
+        <p class="font-semibold text-sm">{{PORCIONES}}</p>
+      </div>
+      <div class="bg-white rounded-xl border border-crema p-3 text-center">
+        <p class="text-2xl mb-1">🍽️</p>
+        <p class="text-xs text-gray-400 uppercase tracking-wide">Categoría</p>
+        <p class="font-semibold text-sm capitalize">{{CATEGORIA}}</p>
+      </div>
+    </div>
+
+    <!-- Imagen hero -->
+    <figure class="mb-8 rounded-2xl overflow-hidden shadow-md bg-crema">
+      <img
+        src="{{IMAGEN}}"
+        alt="Fotografía de {{NOMBRE}}"
+        class="w-full object-cover"
+        style="aspect-ratio: 16/9;"
+        width="800"
+        height="450"
+        loading="eager" />
+    </figure>
+
+    <!-- Ingredientes -->
+    <section class="mb-8">
+      <h2 class="font-titulo font-black text-xl text-azul mb-4">🧅 Ingredientes</h2>
+      <ul class="bg-white rounded-2xl border border-crema divide-y divide-gray-50">
+        {{INGREDIENTES_HTML}}
+      </ul>
+    </section>
+
+    <!-- Preparación -->
+    <section class="mb-8">
+      <h2 class="font-titulo font-black text-xl text-azul mb-5">👨‍🍳 Preparación</h2>
+      <ol class="space-y-5">
+        {{PASOS_HTML}}
+      </ol>
+    </section>
+
+    <!-- Información nutricional -->
+    {{NUTRICION_HTML}}
+
+    <!-- Sustituciones -->
+    <section class="mb-8 bg-amber-50 border border-amber-100 rounded-2xl p-5">
+      <h2 class="font-titulo font-bold text-lg text-amber-700 mb-3">💡 Si no tienes un ingrediente</h2>
+      <ul class="space-y-2">
+        {{SUSTITUCIONES_HTML}}
+      </ul>
+    </section>
+
+    <!-- Autoría + fecha -->
+    <div class="text-xs text-gray-400 border-t border-crema pt-4 mb-8">
+      <p>
+        Publicado por
+        <a href="/sobre-nosotros/" class="text-naranja hover:underline">Equipo Editorial CocinaAhora</a>
+        · Actualizado el
+        <time datetime="{{FECHA_ACTUALIZACION}}">{{FECHA_FORMATEADA}}</time>
+      </p>
+    </div>
+
+    <!-- CTA compartir WhatsApp -->
+    <div class="bg-white rounded-2xl border border-crema p-5 mb-8 text-center">
+      <p class="text-sm text-gray-500 mb-3">¿Te gustó esta receta? ¡Compártela!</p>
+      <a
+        href="https://wa.me/?text={{WHATSAPP_TEXT}}"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm">
+        📲 Compartir por WhatsApp
+      </a>
+    </div>
+
+    <!-- CTA volver -->
+    <div class="text-center">
+      <a href="/" class="inline-flex items-center gap-2 bg-naranja hover:bg-orange-500 text-white font-titulo font-black px-6 py-3 rounded-full shadow transition-colors">
+        ← Ver más recetas
+      </a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-azul text-white text-center py-8 mt-8">
+    <p class="font-titulo font-black text-lg mb-1">🍳 CocinaAhora</p>
+    <p class="text-white/60 text-xs mb-3">Recetas para cada día, con lo que tienes en casa.</p>
+    <div class="flex justify-center gap-4 text-xs text-white/50">
+      <a href="/politica-de-privacidad/" class="hover:text-white transition-colors">Privacidad</a>
+      <span>·</span>
+      <a href="/contacto/" class="hover:text-white transition-colors">Contacto</a>
+      <span>·</span>
+      <a href="/sobre-nosotros/" class="hover:text-white transition-colors">Sobre Nosotros</a>
+    </div>
+    <p class="text-white/30 text-xs mt-4">© 2026 CocinaAhora. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

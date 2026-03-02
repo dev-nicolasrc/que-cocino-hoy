@@ -1,0 +1,13 @@
+{
+  "name": "cocinarahora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i css/input.css -o dist/css/output.css --minify",
+    "build": "npm run build:css && node build.js",
+    "dev:css": "tailwindcss -i css/input.css -o css/output-dev.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

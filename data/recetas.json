@@ -3,12 +3,28 @@
     "id": 1,
     "nombre": "Arroz con Pollo",
     "slug": "arroz-con-pollo",
-    "imagen": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&fm=webp&auto=format",
     "tiempo": 35,
+    "tiempo_iso8601": "PT35M",
     "dificultad": "fácil",
     "porciones": 4,
     "categoria": "almuerzo",
     "tags_dieta": ["normal", "sin-gluten"],
+    "descripcion": "Clásico arroz con pollo colombiano cocinado con sofrito de verduras, caldo casero y especias. Una receta reconfortante y completa lista en 35 minutos.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 450,
+      "proteinas_g": 30,
+      "carbohidratos_g": 48,
+      "grasas_g": 12,
+      "fibra_g": 3
+    },
     "ingredientes": [
       { "nombre": "pollo", "cantidad": "500 g", "afiliado": null },
       { "nombre": "arroz", "cantidad": "2 tazas", "afiliado": null },
@@ -40,12 +56,28 @@
     "id": 2,
     "nombre": "Tortilla Española",
     "slug": "tortilla-espanola",
-    "imagen": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80&fm=webp&auto=format",
     "tiempo": 25,
+    "tiempo_iso8601": "PT25M",
     "dificultad": "fácil",
     "porciones": 4,
     "categoria": "cena",
     "tags_dieta": ["sin-gluten", "economico", "rapido"],
+    "descripcion": "La auténtica tortilla española de patatas y cebolla. Jugosa por dentro, dorada por fuera, perfecta para el desayuno, almuerzo o cena.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 320,
+      "proteinas_g": 12,
+      "carbohidratos_g": 28,
+      "grasas_g": 18,
+      "fibra_g": 2
+    },
     "ingredientes": [
       { "nombre": "huevos", "cantidad": "6 unidades", "afiliado": null },
       { "nombre": "patata", "cantidad": "3 medianas", "afiliado": null },
@@ -71,12 +103,28 @@
     "id": 3,
     "nombre": "Sopa de Lentejas",
     "slug": "sopa-de-lentejas",
-    "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80&fm=webp&auto=format",
     "tiempo": 40,
+    "tiempo_iso8601": "PT40M",
     "dificultad": "fácil",
     "porciones": 6,
     "categoria": "almuerzo",
     "tags_dieta": ["saludable", "vegano", "economico", "sin-gluten"],
+    "descripcion": "Nutritiva sopa de lentejas vegana con zanahoria, tomate y especias. Rica en proteína vegetal, económica y perfecta para el almuerzo.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 280,
+      "proteinas_g": 15,
+      "carbohidratos_g": 42,
+      "grasas_g": 5,
+      "fibra_g": 12
+    },
     "ingredientes": [
       { "nombre": "lentejas", "cantidad": "300 g", "afiliado": null },
       { "nombre": "zanahoria", "cantidad": "2 unidades", "afiliado": null },
@@ -107,12 +155,28 @@
     "id": 4,
     "nombre": "Pasta al Pesto con Tomates Cherry",
     "slug": "pasta-al-pesto",
-    "imagen": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=800&q=80&fm=webp&auto=format",
     "tiempo": 20,
+    "tiempo_iso8601": "PT20M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "cena",
     "tags_dieta": ["vegano", "economico", "rapido"],
+    "descripcion": "Pasta fresca con pesto de albahaca casero y tomates cherry. Rápida, económica y llena de sabor para cenas entre semana.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 580,
+      "proteinas_g": 14,
+      "carbohidratos_g": 58,
+      "grasas_g": 32,
+      "fibra_g": 4
+    },
     "ingredientes": [
       { "nombre": "pasta", "cantidad": "200 g", "afiliado": null },
       { "nombre": "tomate cherry", "cantidad": "200 g", "afiliado": null },
@@ -140,12 +204,28 @@
     "id": 5,
     "nombre": "Salmón al Horno con Verduras",
     "slug": "salmon-al-horno",
-    "imagen": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80&fm=webp&auto=format",
     "tiempo": 30,
+    "tiempo_iso8601": "PT30M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "cena",
     "tags_dieta": ["saludable", "sin-gluten", "rapido"],
+    "descripcion": "Salmón al horno con brócoli y zanahoria asados. Alto en omega-3, bajo en calorías y listo en 30 minutos.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 390,
+      "proteinas_g": 36,
+      "carbohidratos_g": 15,
+      "grasas_g": 20,
+      "fibra_g": 5
+    },
     "ingredientes": [
       { "nombre": "salmón", "cantidad": "2 filetes (300 g)", "afiliado": null },
       { "nombre": "brócoli", "cantidad": "200 g", "afiliado": null },
@@ -172,12 +252,28 @@
     "id": 6,
     "nombre": "Ensalada de Garbanzos y Aguacate",
     "slug": "ensalada-garbanzos-aguacate",
-    "imagen": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80&fm=webp&auto=format",
     "tiempo": 10,
+    "tiempo_iso8601": "PT10M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "almuerzo",
     "tags_dieta": ["vegano", "saludable", "sin-gluten", "rapido"],
+    "descripcion": "Ensalada fresca y colorida de garbanzos con aguacate, tomate cherry y aderezo de limón. 100% vegana y lista en 10 minutos.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 420,
+      "proteinas_g": 14,
+      "carbohidratos_g": 38,
+      "grasas_g": 25,
+      "fibra_g": 12
+    },
     "ingredientes": [
       { "nombre": "garbanzos cocidos", "cantidad": "400 g (1 lata)", "afiliado": null },
       { "nombre": "aguacate", "cantidad": "1 unidad", "afiliado": null },
@@ -205,12 +301,28 @@
     "id": 7,
     "nombre": "Pollo a la Plancha con Brócoli",
     "slug": "pollo-plancha-brocoli",
-    "imagen": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80&fm=webp&auto=format",
     "tiempo": 20,
+    "tiempo_iso8601": "PT20M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "cena",
     "tags_dieta": ["saludable", "sin-gluten", "rapido"],
+    "descripcion": "Pechuga de pollo a la plancha con brócoli al vapor. Alto en proteínas, bajo en grasas e ideal para dietas saludables.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 310,
+      "proteinas_g": 42,
+      "carbohidratos_g": 10,
+      "grasas_g": 12,
+      "fibra_g": 5
+    },
     "ingredientes": [
       { "nombre": "pechuga de pollo", "cantidad": "2 unidades (400 g)", "afiliado": null },
       { "nombre": "brócoli", "cantidad": "300 g", "afiliado": null },
@@ -237,12 +349,28 @@
     "id": 8,
     "nombre": "Revuelto de Espinacas y Huevo",
     "slug": "revuelto-espinacas-huevo",
-    "imagen": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80&fm=webp&auto=format",
     "tiempo": 12,
+    "tiempo_iso8601": "PT12M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "cena",
     "tags_dieta": ["saludable", "sin-gluten", "rapido", "economico"],
+    "descripcion": "Revuelto cremoso de espinacas frescas y huevo. Listo en 12 minutos, económico y perfecto para una cena rápida y nutritiva.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 220,
+      "proteinas_g": 18,
+      "carbohidratos_g": 6,
+      "grasas_g": 14,
+      "fibra_g": 2
+    },
     "ingredientes": [
       { "nombre": "huevos", "cantidad": "4 unidades", "afiliado": null },
       { "nombre": "espinacas frescas", "cantidad": "150 g", "afiliado": null },
@@ -268,12 +396,28 @@
     "id": 9,
     "nombre": "Crema de Calabaza al Jengibre",
     "slug": "crema-calabaza-jengibre",
-    "imagen": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800&q=80&fm=webp&auto=format",
     "tiempo": 35,
+    "tiempo_iso8601": "PT35M",
     "dificultad": "fácil",
     "porciones": 4,
     "categoria": "almuerzo",
     "tags_dieta": ["vegano", "saludable", "sin-gluten", "economico"],
+    "descripcion": "Crema suave de calabaza con leche de coco y jengibre fresco. Vegana, reconfortante y muy aromática, perfecta para el almuerzo.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 220,
+      "proteinas_g": 4,
+      "carbohidratos_g": 28,
+      "grasas_g": 10,
+      "fibra_g": 5
+    },
     "ingredientes": [
       { "nombre": "calabaza", "cantidad": "800 g", "afiliado": null },
       { "nombre": "cebolla", "cantidad": "1 unidad", "afiliado": null },
@@ -303,12 +447,28 @@
     "id": 10,
     "nombre": "Arroz Frito con Verduras",
     "slug": "arroz-frito-verduras",
-    "imagen": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80",
+    "imagen": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80&fm=webp&auto=format",
     "tiempo": 20,
+    "tiempo_iso8601": "PT20M",
     "dificultad": "fácil",
     "porciones": 2,
     "categoria": "cena",
     "tags_dieta": ["vegano", "economico", "rapido", "sin-gluten"],
+    "descripcion": "Arroz frito con verduras al estilo asiático. La forma perfecta de aprovechar el arroz sobrante en una cena rápida y deliciosa.",
+    "autor": {
+      "nombre": "Equipo Editorial CocinaAhora",
+      "titulo": "Equipo de redacción culinaria",
+      "url": "/sobre-nosotros/"
+    },
+    "fecha_publicacion": "2026-01-15",
+    "fecha_actualizacion": "2026-03-02",
+    "nutricion": {
+      "calorias": 385,
+      "proteinas_g": 8,
+      "carbohidratos_g": 62,
+      "grasas_g": 10,
+      "fibra_g": 4
+    },
     "ingredientes": [
       { "nombre": "arroz cocido del día anterior", "cantidad": "2 tazas", "afiliado": null },
       { "nombre": "zanahoria", "cantidad": "1 unidad", "afiliado": null },
