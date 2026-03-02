@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contacto — CocinaAhora</title>
+  <meta name="description" content="¿Tienes una pregunta, sugerencia o quieres proponer una receta? Escríbenos al equipo de CocinaAhora." />
+  <link rel="canonical" href="https://cocinarahora.com/contacto/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contacto — CocinaAhora" />
+  <meta property="og:description" content="¿Tienes una pregunta o sugerencia? Escríbenos al equipo de CocinaAhora." />
+  <meta property="og:url" content="https://cocinarahora.com/contacto/" />
+  <meta property="og:site_name" content="CocinaAhora" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            naranja: '#FF6B35',
+            crema:   '#F7C59F',
+            fondo:   '#EFEFD0',
+            azul:    '#004E89',
+          },
+          fontFamily: {
+            titulo: ['Nunito', 'sans-serif'],
+            cuerpo: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Schema JSON-LD: ContactPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contacto — CocinaAhora",
+    "url": "https://cocinarahora.com/contacto/",
+    "description": "Página de contacto del equipo editorial de CocinaAhora.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "CocinaAhora",
+      "url": "https://cocinarahora.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contacto@cocinarahora.com",
+        "contactType": "customer support",
+        "availableLanguage": "Spanish",
+        "areaServed": "CO"
+      }
+    }
+  }
+  </script>
+</head>
+
+<body class="bg-fondo font-cuerpo text-gray-800">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <nav class="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
+      <a href="/" class="font-titulo font-black text-naranja text-xl leading-tight">
+        🍳 CocinaAhora
+      </a>
+      <span class="text-gray-300">|</span>
+      <span class="text-sm text-gray-500 font-medium">Contacto</span>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-2xl mx-auto px-4 py-12">
+
+    <h1 class="font-titulo font-black text-3xl sm:text-4xl text-azul mb-3">
+      Contáctanos
+    </h1>
+    <p class="text-gray-600 leading-relaxed mb-10">
+      Estamos aquí para escucharte. Ya sea una pregunta sobre una receta,
+      una sugerencia de mejora o una propuesta de colaboración,
+      nos encantará leerte.
+    </p>
+
+    <!-- Tarjeta de contacto principal -->
+    <div class="bg-white rounded-2xl border border-crema p-8 mb-8 text-center">
+      <p class="text-5xl mb-4">✉️</p>
+      <h2 class="font-titulo font-black text-xl text-azul mb-2">Correo electrónico</h2>
+      <p class="text-gray-500 text-sm mb-4">Es la forma más rápida y directa de contactarnos</p>
+      <a
+        href="mailto:contacto@cocinarahora.com"
+        class="inline-flex items-center gap-2 bg-naranja hover:bg-orange-500 text-white font-titulo font-black px-8 py-4 rounded-full text-lg shadow-md transition-colors">
+        contacto@cocinarahora.com
+      </a>
+      <p class="text-xs text-gray-400 mt-4">
+        ⏱ Tiempo de respuesta habitual: <strong class="text-gray-600">24–48 horas hábiles</strong>
+      </p>
+    </div>
+
+    <!-- Motivos de contacto -->
+    <section class="mb-10">
+      <h2 class="font-titulo font-bold text-lg text-azul mb-4">¿En qué te podemos ayudar?</h2>
+      <div class="space-y-3">
+
+        <div class="bg-white rounded-xl border border-crema p-4 flex gap-4 items-start">
+          <span class="text-2xl shrink-0">🍽️</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Sugerir una receta</p>
+            <p class="text-sm text-gray-600">
+              ¿Tienes una receta colombiana que te encanta y quieres verla en CocinaAhora?
+              Envíanosla con los ingredientes y los pasos.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-crema p-4 flex gap-4 items-start">
+          <span class="text-2xl shrink-0">🔧</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Reportar un error</p>
+            <p class="text-sm text-gray-600">
+              ¿Encontraste un error en una receta, un paso confuso o un problema técnico?
+              Cuéntanos y lo corregimos de inmediato.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-crema p-4 flex gap-4 items-start">
+          <span class="text-2xl shrink-0">💡</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Sugerencias de mejora</p>
+            <p class="text-sm text-gray-600">
+              ¿Tienes una idea para hacer CocinaAhora más útil? Una nueva función,
+              un filtro diferente, otra forma de buscar recetas... todo nos interesa.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-crema p-4 flex gap-4 items-start">
+          <span class="text-2xl shrink-0">🤝</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Colaboraciones</p>
+            <p class="text-sm text-gray-600">
+              ¿Eres chef, nutricionista, foodie o marca de alimentos y te gustaría
+              colaborar con nosotros? Escríbenos con tu propuesta.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border border-crema p-4 flex gap-4 items-start">
+          <span class="text-2xl shrink-0">🔒</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Privacidad y datos personales</p>
+            <p class="text-sm text-gray-600">
+              Para ejercer tus derechos de acceso, rectificación o supresión de datos
+              según la Ley 1581 de 2012, también puedes escribirnos a este correo.
+              Consulta nuestra <a href="/politica-de-privacidad/" class="text-naranja hover:underline">política de privacidad</a>.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Nota de respuesta -->
+    <div class="bg-crema/40 border border-crema rounded-2xl p-5 mb-8">
+      <p class="text-sm text-gray-600 leading-relaxed">
+        <strong class="text-azul">Nota:</strong> Respondemos todos los correos en un plazo de
+        <strong>24 a 48 horas hábiles</strong> (lunes a viernes). Los mensajes recibidos en fin de semana
+        o festivos serán atendidos el siguiente día hábil.
+      </p>
+    </div>
+
+    <!-- Volver -->
+    <div class="border-t border-crema pt-6">
+      <a href="/" class="inline-flex items-center gap-2 text-naranja font-semibold hover:underline text-sm">
+        ← Volver a CocinaAhora
+      </a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-azul text-white text-center py-8 mt-4">
+    <p class="font-titulo font-black text-lg mb-1">🍳 CocinaAhora</p>
+    <p class="text-white/60 text-xs mb-3">Recetas para cada día, con lo que tienes en casa.</p>
+    <div class="flex justify-center gap-4 text-xs text-white/50">
+      <a href="/politica-de-privacidad/" class="hover:text-white transition-colors">Privacidad</a>
+      <span>·</span>
+      <a href="/contacto/" class="hover:text-white transition-colors">Contacto</a>
+      <span>·</span>
+      <a href="/sobre-nosotros/" class="hover:text-white transition-colors">Sobre Nosotros</a>
+    </div>
+    <p class="text-white/30 text-xs mt-4">© 2026 CocinaAhora. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

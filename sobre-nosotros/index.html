@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sobre Nosotros — CocinaAhora</title>
+  <meta name="description" content="Conoce la historia de CocinaAhora, el buscador de recetas colombiano que te ayuda a cocinar con los ingredientes que tienes en casa." />
+  <link rel="canonical" href="https://cocinarahora.com/sobre-nosotros/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sobre Nosotros — CocinaAhora" />
+  <meta property="og:description" content="Conoce la historia de CocinaAhora, el buscador de recetas que te ayuda a cocinar con lo que tienes en casa." />
+  <meta property="og:url" content="https://cocinarahora.com/sobre-nosotros/" />
+  <meta property="og:site_name" content="CocinaAhora" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            naranja: '#FF6B35',
+            crema:   '#F7C59F',
+            fondo:   '#EFEFD0',
+            azul:    '#004E89',
+          },
+          fontFamily: {
+            titulo: ['Nunito', 'sans-serif'],
+            cuerpo: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Schema JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CocinaAhora",
+    "alternateName": "Equipo Editorial CocinaAhora",
+    "url": "https://cocinarahora.com",
+    "logo": "https://cocinarahora.com/img/logo.png",
+    "description": "Buscador de recetas colombiano que ayuda a cocinar con los ingredientes disponibles en casa.",
+    "foundingDate": "2025",
+    "areaServed": "CO",
+    "inLanguage": "es-CO",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contacto@cocinarahora.com",
+      "contactType": "customer support",
+      "availableLanguage": "Spanish"
+    },
+    "sameAs": []
+  }
+  </script>
+</head>
+
+<body class="bg-fondo font-cuerpo text-gray-800">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <nav class="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
+      <a href="/" class="font-titulo font-black text-naranja text-xl leading-tight">
+        🍳 CocinaAhora
+      </a>
+      <span class="text-gray-300">|</span>
+      <span class="text-sm text-gray-500 font-medium">Sobre Nosotros</span>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="bg-azul text-white py-12 px-4 text-center">
+    <p class="text-5xl mb-4">🍳</p>
+    <h1 class="font-titulo font-black text-3xl sm:text-4xl mb-3">
+      Sobre CocinaAhora
+    </h1>
+    <p class="text-white/80 max-w-xl mx-auto text-base leading-relaxed">
+      Ayudamos a los colombianos a cocinar rico con lo que tienen en casa,
+      sin complicaciones ni ingredientes imposibles de conseguir.
+    </p>
+  </div>
+
+  <!-- CONTENIDO -->
+  <main class="max-w-3xl mx-auto px-4 py-12">
+
+    <!-- Historia -->
+    <section class="mb-12">
+      <h2 class="font-titulo font-black text-2xl text-azul mb-4">¿Cómo nació CocinaAhora?</h2>
+      <div class="prose max-w-none text-gray-700 leading-relaxed space-y-4">
+        <p>
+          CocinaAhora nació en 2025 de una frustración cotidiana: llegar a casa después de un día largo,
+          abrir la nevera y no saber qué cocinar con lo que hay. Comprar ingredientes específicos para
+          una receta termina siendo caro, lento y genera desperdicio de alimentos.
+        </p>
+        <p>
+          La idea fue simple: crear una herramienta que tome los ingredientes que ya tienes y encuentre
+          la mejor receta posible con ellos. Sin ingredientes exóticos, sin preparaciones complicadas,
+          sin salir a comprar.
+        </p>
+        <p>
+          El resultado es un buscador inteligente pensado para la cocina colombiana del día a día:
+          recetas reales, con ingredientes que se consiguen en cualquier tienda o mercado, explicadas
+          paso a paso para que cualquier persona pueda hacerlas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Misión y valores -->
+    <section class="mb-12">
+      <h2 class="font-titulo font-black text-2xl text-azul mb-6">Nuestra misión</h2>
+      <div class="grid sm:grid-cols-3 gap-4">
+        <div class="bg-white rounded-2xl border border-crema p-5 text-center">
+          <p class="text-4xl mb-3">🛒</p>
+          <h3 class="font-titulo font-bold text-azul mb-2">Cocina sin excusas</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Cada receta usa ingredientes comunes que encuentras en cualquier mercado colombiano.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl border border-crema p-5 text-center">
+          <p class="text-4xl mb-3">♻️</p>
+          <h3 class="font-titulo font-bold text-azul mb-2">Menos desperdicio</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Aprovecha los ingredientes que ya tienes antes de que se dañen.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl border border-crema p-5 text-center">
+          <p class="text-4xl mb-3">⚡</p>
+          <h3 class="font-titulo font-bold text-azul mb-2">Recetas rápidas</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            La mayoría de nuestras recetas se preparan en menos de 40 minutos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipo editorial -->
+    <section class="mb-12">
+      <h2 class="font-titulo font-black text-2xl text-azul mb-4">Equipo Editorial</h2>
+      <div class="bg-white rounded-2xl border border-crema p-6">
+        <div class="flex items-start gap-4">
+          <div class="w-14 h-14 bg-naranja rounded-full flex items-center justify-center text-white text-2xl shrink-0">
+            👨‍🍳
+          </div>
+          <div>
+            <h3 class="font-titulo font-bold text-azul text-lg mb-1">Equipo Editorial CocinaAhora</h3>
+            <p class="text-sm text-gray-500 mb-3">Equipo de redacción culinaria · Colombia</p>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Somos un equipo apasionado por la cocina colombiana y latinoamericana. Nos dedicamos a
+              investigar, probar y documentar recetas que cualquier persona pueda replicar en casa,
+              con ingredientes accesibles y técnicas sencillas. Cada receta publicada en CocinaAhora
+              pasa por un proceso de revisión para garantizar que las instrucciones sean claras,
+              los tiempos sean realistas y el resultado sea delicioso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section class="mb-12">
+      <h2 class="font-titulo font-black text-2xl text-azul mb-6">¿Cómo funciona el buscador?</h2>
+      <ol class="space-y-4">
+        <li class="flex gap-4">
+          <span class="shrink-0 w-9 h-9 bg-naranja text-white rounded-full flex items-center justify-center font-titulo font-black">1</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Dinos qué tienes en tu nevera</p>
+            <p class="text-sm text-gray-600">Selecciona o escribe los ingredientes disponibles. Puedes elegir desde nuestra nube de ingredientes populares o escribir los tuyos.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="shrink-0 w-9 h-9 bg-naranja text-white rounded-full flex items-center justify-center font-titulo font-black">2</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">Encontramos la mejor receta</p>
+            <p class="text-sm text-gray-600">Nuestro motor busca la receta con mayor coincidencia de ingredientes respecto a lo que tienes disponible.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="shrink-0 w-9 h-9 bg-naranja text-white rounded-full flex items-center justify-center font-titulo font-black">3</span>
+          <div>
+            <p class="font-semibold text-gray-800 mb-1">¡A cocinar!</p>
+            <p class="text-sm text-gray-600">Cada receta incluye ingredientes con cantidades exactas, pasos de preparación y sustituciones inteligentes para los ingredientes que no tengas.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contacto CTA -->
+    <section class="bg-azul text-white rounded-2xl p-6 text-center mb-8">
+      <p class="text-2xl mb-2">💬</p>
+      <h2 class="font-titulo font-black text-xl mb-2">¿Tienes alguna pregunta o sugerencia?</h2>
+      <p class="text-white/80 text-sm mb-4">
+        Nos encanta recibir comentarios de nuestra comunidad. ¿Falta alguna receta? ¿Quieres sugerir una mejora?
+      </p>
+      <a href="/contacto/"
+         class="inline-block bg-naranja hover:bg-orange-500 text-white font-titulo font-black px-6 py-3 rounded-full transition-colors">
+        Escríbenos
+      </a>
+    </section>
+
+    <!-- Volver -->
+    <div class="border-t border-crema pt-6">
+      <a href="/" class="inline-flex items-center gap-2 text-naranja font-semibold hover:underline text-sm">
+        ← Volver a CocinaAhora
+      </a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-azul text-white text-center py-8 mt-4">
+    <p class="font-titulo font-black text-lg mb-1">🍳 CocinaAhora</p>
+    <p class="text-white/60 text-xs mb-3">Recetas para cada día, con lo que tienes en casa.</p>
+    <div class="flex justify-center gap-4 text-xs text-white/50">
+      <a href="/politica-de-privacidad/" class="hover:text-white transition-colors">Privacidad</a>
+      <span>·</span>
+      <a href="/contacto/" class="hover:text-white transition-colors">Contacto</a>
+      <span>·</span>
+      <a href="/sobre-nosotros/" class="hover:text-white transition-colors">Sobre Nosotros</a>
+    </div>
+    <p class="text-white/30 text-xs mt-4">© 2026 CocinaAhora. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
