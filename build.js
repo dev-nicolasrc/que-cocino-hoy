@@ -341,6 +341,7 @@ function build() {
 
   fs.copyFileSync('robots.txt',  path.join(DIST, 'robots.txt'));
   fs.copyFileSync('_redirects',  path.join(DIST, '_redirects'));
+  fs.copyFileSync('favicon.png', path.join(DIST, 'favicon.png'));
 
   if (fs.existsSync('img'))        copyDir('img',        path.join(DIST, 'img'));
   if (fs.existsSync('css/style.css')) {
